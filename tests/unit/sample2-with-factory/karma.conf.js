@@ -1,7 +1,7 @@
 module.exports = function(config){
   config.set({
 
-    basePath : '../',
+    basePath : '../../../',
 
     files: [
       'vendor/assets/angular/javascripts/angular.js',
@@ -10,9 +10,10 @@ module.exports = function(config){
       'vendor/assets/angular/javascripts/angular-animate.js',
       'vendor/assets/angular/javascripts/angular-mocks.js',
 
-      '*.js',
+      'sample2-factory.js',
+      'factory.notes.js',
 
-      'tests/unit/**/*_spec.js'
+      'tests/unit/sample2-with-factory/**/*Spec.js'
     ], 
 
     autoWatch : true,
